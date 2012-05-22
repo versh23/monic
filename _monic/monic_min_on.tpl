@@ -5,7 +5,6 @@ $back = (file_exists('maps/cs/'.$map.'.gif'))? 'maps/cs/'.$map.'.gif' : 'maps/of
 <META HTTP-EQUIV="refresh" CONTENT="120; url=<?=$url?>">
 <body>
 <center>
-<? if ($table=='monic6') include 'monitoring6.php'; ?>
 <table cellpadding="0" cellspacing="0">
     <tr>
         <td background="<?=$back;?>">
