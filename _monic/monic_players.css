@@ -1,0 +1,101 @@
+.header {
+text-align:center;
+border:2px solid #569d74;
+border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+color:#FFFF99;
+font-weight: bold;
+padding: 5px;
+}
+
+BODY{
+background-image: url('/images/fonb.gif');
+font-family: "Arial";
+font-weight: bold;
+
+font-size: 14px !important;
+}
+
+TABLE { 
+
+font-family: "Arial";
+font-weight: normal;
+border-spacing: 3px;
+float:left;
+margin-left:25px;
+}
+
+CAPTION.ter{
+text-align:right;
+border-bottom-style: ridge;
+border-bottom-width: 1px; /* Толщина линии внизу */
+
+
+padding: 5px;
+}
+
+
+CAPTION.con{
+text-align:left;
+border-bottom-style: ridge;
+border-bottom-width: 1px; /* Толщина линии внизу */
+
+padding: 5px;
+
+}
+
+.center{
+text-align:center;
+}
+
+TD.lef_fr{
+text-align:left;
+font-size:15px;
+
+}
+
+TD.lef_name{
+text-align:left;
+min-width: 113px;
+font-size:15px;
+}
+
+
+a:hover  {
+border-bottom:1px solid #CCCCCC;
+}
+.highslide-body a:hover{
+border-bottom:0px solid #CCCCCC;
+}
+
+TD.rig{
+text-align:right;
+font-size:15px;
+
+}
+
+.spec {
+color:#999999;
+
+
+}
+
+#content1 A {
+color:#FF6633;
+
+
+}
+#content1{
+color:#FF6633;
+
+}
+#content2{
+color:#BDFDFF;
+
+}
+#content2 A{
+color:#BDFDFF;
+
+
+}
