@@ -6,11 +6,13 @@ $type=$_GET['type'];
 if ($type=='f')
 {
 	$id=db_search_f($host,$login,$pass,$sid);
+	if ($id == '') die('Нет связи игрока с форумом');
 	header("Location: http://stalin-server.ru/forums/index.php?showuser=$id");
 	exit;
 }elseif($type=='s')
 {
 	$id=db_search_s($host,$login,$pass,$sid);
+	if ($id == '') die('Не найден в статистике');
 	header("Location: http://stalin-server.ru/psychostats/player.php?id=$id");
 	exit;
 }else die('ERROR');
