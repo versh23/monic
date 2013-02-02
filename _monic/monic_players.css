@@ -29,7 +29,7 @@ margin-left:25px;
 CAPTION.ter{
 text-align:right;
 border-bottom-style: ridge;
-border-bottom-width: 1px; /* Толщина линии внизу */
+border-bottom-width: 1px; /* ??????? ????? ????? */
 
 
 padding: 5px;
@@ -39,8 +39,8 @@ padding: 5px;
 CAPTION.con{
 text-align:left;
 border-bottom-style: ridge;
-border-bottom-width: 1px; /* Толщина линии внизу */
-
+border-bottom-width: 1px; /* ??????? ????? ????? */
+min-width: 140px;
 padding: 5px;
 
 }

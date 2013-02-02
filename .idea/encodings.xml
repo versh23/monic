@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/_monic/monic_min_on.tpl" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/_monic/monic_players.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/_monic/monic_players.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/_monic/monic_players.tpl" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/_monic/monic_small.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/monic.sma" charset="windows-1251" />
+  </component>
+</project>
+

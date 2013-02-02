@@ -47,7 +47,7 @@ setTimeout(resi, 500);
 
 </head>
 <body id="bd">
-<div class="header"><img src="user_comment.png">&nbsp;&nbsp;<?=$server_name?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?=$server?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?=$cnt?>/20</div>
+<div class="header"><img src="user_comment.png">&nbsp;&nbsp;<?=$info_server['name'];?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?=$server?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?=$cnt?>/20</div>
 <center>
 <br>
 <table id="content1">
