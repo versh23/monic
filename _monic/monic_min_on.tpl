@@ -12,9 +12,17 @@ $back = (file_exists('maps/cs/'.$map.'.gif'))? 'maps/cs/'.$map.'.gif' : 'maps/of
         </td>
     </tr>
 </table>
-Игроки: <strong><?=$cnt?>/20</strong> <br />
+Игроки: <strong><?=$cnt?>/<?=$info_server['maxplayers'];?></strong> <br />
 Карта: <strong><?=$map?></strong><br/>
 Статус сервера: <font color="green"><b>ON</b></font>
+    <?if(strlen($info_server['name']) > 100):?>
+    <br>
+    <center><font size="3" face="tahoma" color="red">Идет игра...</font></center>
+    <br>
+    <a href="steam://connect/62.140.250.2:27201" title="Соединиться с HLTV. Только для STEAM"><b>HLTV трансляция</b></a>
+    <br>
+    <font color="red">connect 62.140.250.2:27201</font>
+    <?endif;?>
 </center>
 </body>
 </html>

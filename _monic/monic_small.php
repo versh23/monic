@@ -8,6 +8,7 @@ $url='/_monic/monic_small.php?server='.$server.'&table='.$table;
 $pq = PQ::create($conf);
 if($pq->query_ping($server))
 {
+    $info_server = $pq->query_info($server);
 	$link=mysql_connect($host,$login,$pass) or die('No connect to database');
 	mysql_select_db('web913612_ps') or die('no connetc to database');
 	$res=mysql_query("SELECT * FROM $table ORDER BY `frag` DESC");
